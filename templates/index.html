@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2>Weather App AI by Ariq Chowdhury</h2>
+    </div>
+    <div class="userInput">
+        <form method="post" action="/results">
+            <label for="userCity">Enter location to get 5 day weather forecast!</label>
+            <input type="text" id="userCity" name="userCity" required>
+            <button type="submit">Enter</button>
+            {% if message %}
+                <p style="color: red;">{{message}}</p>
+            {% endif %}
+        </form>
+    </div>
+    <div class="db">
+        <form method="post" action="/createDB">
+           <button type="submit">Create DB Table</button> 
+        </form>
+        <form method="post" action="/readDB">
+            <button type="submit">Read DB</button>
+        </form>
+        <form method="post" action="/updateDB1">
+           <button type="submit">Update DB</button> 
+        </form>
+        <form method="post" action="/deleteDB1">
+            <button type="submit">Delete DB</button>
+        </form>
+        <form method="post" action="/export">
+            <button type="submit">Export to JSON</button>
+        </form>
+        <form method="post" action="/info">
+            <button type="submit">Info</button>
+        </form>
+    </div>
+</body>
+</html>

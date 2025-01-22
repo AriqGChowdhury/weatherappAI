@@ -1,0 +1,27 @@
+[
+  {
+    "location": "detroit",
+    "date": "2025-01-23",
+    "temp": 23.9
+  },
+  {
+    "location": "detroit",
+    "date": "2025-01-25",
+    "temp": 34.0
+  },
+  {
+    "location": "detroit",
+    "date": "2025-01-26",
+    "temp": 26.9
+  },
+  {
+    "location": "detroit",
+    "date": "2025-01-27",
+    "temp": 29.6
+  },
+  {
+    "location": "detroit",
+    "date": "2025-01-28",
+    "temp": 37.7
+  }
+]
