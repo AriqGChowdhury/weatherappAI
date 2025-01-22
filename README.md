@@ -16,3 +16,5 @@ Created with:
 - Llama: Used for summarizing weather forecast data.
 - SQLite Used for storing weather records.
 - JSON: For exporting weather data from the database
+
+This project is licensed under the MIT License
