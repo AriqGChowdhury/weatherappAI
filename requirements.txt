@@ -9,5 +9,5 @@ safetensors==0.5.2
 tokenizers==0.21.0
 torch==2.5.1
 transformers==4.48.0
-
+gunicorn==23.0.0
 
